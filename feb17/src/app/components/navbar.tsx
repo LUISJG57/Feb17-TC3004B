@@ -13,7 +13,9 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo/Brand */}
           <div className="flex items-center">
-            <span className="text-xl font-semibold text-gray-800">Logo</span>
+            <Link href="/" className="text-xl font-semibold text-gray-800" >
+                Logo
+            </Link>
           </div>
 
           <div className="hidden md:flex items-center space-x-4">
